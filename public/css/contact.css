@@ -1,0 +1,104 @@
+.map-responsive{
+
+    overflow:hidden;
+    padding-bottom:35%;
+    position:relative;
+
+}
+
+.map-responsive iframe{
+
+    left:0;
+    top:0;
+    position:absolute;
+}
+
+
+#bg-black{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#nav-ml{
+    margin-left: 250px;
+}
+
+#nav-mr{
+    margin-right: 150px;
+}
+
+.nav-item a{
+    margin-left: 20px;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+
+.bg-black a{
+    color: white;
+}
+
+nav{
+    opacity: 0.9;
+}
+
+#login
+{
+    color: white;
+    border: solid 4px rgb(253, 189, 79);
+    border-radius: 30px;
+    margin-left: auto;
+    width: 85px;
+}
+#login:hover
+{
+    background-color: rgb(253, 189, 79);
+}
+
+#signUp
+{
+    color: white;
+    border: solid 4px rgb(253, 189, 79);
+    border-radius: 30px;
+    margin-left: 5px;
+}
+#signUp:hover
+{
+    background-color: rgb(253, 189, 79);
+}
+
+#bg-black h3,#bg-black h5, #bg-black p {
+    color: white;
+}
+
+#bg-black h1{
+    color: rgb(253, 189, 79);
+}
+
+#bg-black h4{
+    color:white;
+    margin-top: 3%;
+}
+
+#row img{
+    border-radius: 50px;
+    border: 2px solid white;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+i{
+    margin-right: 10px;
+    font-size: 23px;
+    margin-top: 25px;
+    float: left;
+    color: rgb(253, 189, 79);
+    border: 2px solid rgb(253, 189, 79);
+    padding: 2%;
+    border-radius: 100%;
+}

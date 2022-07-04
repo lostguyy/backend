@@ -1,0 +1,69 @@
+#bg-black{
+    background-color: black;
+}
+
+#nav-ml{
+    margin-left: 250px;
+}
+
+#nav-mr{
+    margin-right: 150px;
+}
+
+.nav-item a{
+    margin-left: 20px;
+}
+
+.nav-item a:hover{
+    color: white;
+}
+
+.container a{
+    color: white;
+}
+
+nav{
+    opacity: 0.9;
+}
+
+#login
+{
+    color: white;
+    border: solid 4px rgb(253, 189, 79);
+    border-radius: 30px;
+    margin-left: auto;
+    width: 85px;
+}
+#login:hover
+{
+    background-color: rgb(253, 189, 79);
+}
+
+#signUp
+{
+    color: white;
+    border: solid 4px rgb(253, 189, 79);
+    border-radius: 30px;
+    margin-left: 5px;
+}
+#signUp:hover
+{
+    background-color: rgb(253, 189, 79);
+}
+
+.container h3,.container h5{
+    color: rgb(105, 107, 105);
+}
+
+.container h1{
+    color: rgb(253, 189, 79);
+}
+
+.container h4{
+    color:white;
+    margin-top: 3%;
+}
+
+.container label{
+    color: white;
+}

@@ -1,0 +1,160 @@
+#bg-nav-wel{
+    background-image: url('../img/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#bg-cars{
+    background-color:grey;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.bg-color{
+    background-color: white;
+}
+
+#welcome{
+    padding-top: 15%;
+    padding-bottom: 20%;
+}
+
+#nav-ml{
+    margin-left: 250px;
+}
+
+#nav-mr{
+    margin-right: 150px;
+}
+
+.nav-item a{
+    margin-left: 20px;
+}
+
+nav{
+    opacity: 0.9;
+}
+
+#btnWelcome{
+    color: white;
+    border: solid 2px rgb(253, 189, 79);
+    border-radius: 30px;
+    width: auto;
+    margin: 10px;
+}
+#btnWelcome:hover
+{
+    background-color: rgb(253, 189, 79);
+}
+
+#bookTable{
+    color: white;
+    border: solid 2px rgb(253, 189, 79);
+    border-radius: 30px;
+    width: auto;
+    margin: 10px;
+    margin-left: auto;
+}
+#bookTable:hover
+{
+    background-color: rgb(253, 189, 79);
+}
+
+#login
+{
+    color: white;
+    border: solid 4px rgb(253, 189, 79);
+    border-radius: 30px;
+    margin-left: auto;
+    width: 85px;
+}
+#login:hover
+{
+    background-color: rgb(253, 189, 79);
+}
+
+#signUp
+{
+    color: white;
+    border: solid 4px rgb(253, 189, 79);
+    border-radius: 30px;
+    margin-left: 5px;
+}
+#signUp:hover
+{
+    background-color: rgb(253, 189, 79);
+}
+
+.container h5{
+    color: black;
+}
+
+.container h3, .container h4{
+    color: black;
+}
+
+.container h1{
+    color: rgb(253, 189, 79);
+}
+
+.container p{
+    color: white;
+}
+
+.bg-color h1{
+    color: red;
+}
+
+.bg-color h3{
+    color: black;
+}
+
+
+i{
+    float: left;
+    font-size: 25px;
+    color: rgb(253, 189, 79);
+    margin-right: 20px;
+}
+
+.card-title{
+    text-align: center;
+}
+
+.nav-item a:active{
+    text-decoration-color: red;
+}
+
+.container a{
+    color: black;
+}
+
+/* .row img{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+} */
+
+
+.container .card{
+    background-color: lightgrey;
+}
+
+.row h5{
+    color: white;
+}
+
+/* #bg-resimg p{
+    color: black;
+} */
+
+
+#bg-resimg{
+    background-image: url('../img/resImage4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}

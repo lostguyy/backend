@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+    <script src="./js/index.js"></script>
+    <script src="https://kit.fontawesome.com/8334ce9fa1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    
+    <div id="bg-nav-wel">
+        <nav class="navbar navbar-expand-lg navbar-collapse-md sticky-top navbar-dark bg-dark ms-5">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <img src="./img/logo.PNG" class="img-fluid me-2" alt="logo" width="60px" height="60px" style="float: left;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                        <li class="nav-item" id="nav-ml">
+                            <a class="nav-link active" aria-current="page" href="/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/menu">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact">Contact</a>
+                        </li>
+                        <li class="nav-item" id="nav-mr">
+                            <a class="nav-link" href="/about">About Us</a>
+                        </li>
+                    </ul>
+                    <button class="btn" type="button" id="bookTable" onclick="bookTable()">BOOK A TABLE</button>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container">
+            <div class="row" id="welcome">
+                <h1>Welcome to Depresstaurant</h1>
+                <h5>Delivering great food for more than 18 years!</h5>
+
+                <button class="btn" type="button" id="btnWelcome" onclick="menu()">Our Menu</button>
+                <!-- <button class="btn" type="button" id="bookTable" onclick="bookTable()">BOOK A TABLE</button> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="py-5" id="bg-cars">
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <h3>EVENTS _____________</h3>
+                            <h1>Organize Your Events In Our Restaurant</h1>
+                            <div class="col-lg-7 col-sm-6">
+                                <img src="./img/birthday.jpg" width="710" class="img-fluid" alt="carousel-1">
+                            </div>
+                            <div class="col-lg-5 col-sm-6">
+                                <h1>Birthday Parties</h1>
+                                <h3>$99.00</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <h3>EVENTS _____________</h3>
+                            <h1>Organize Your Events In Our Restaurant</h1>
+                            <div class="col-lg-7 col-sm-6">
+                                <img src="./img/custom.jpg" width="710" class="img-fluid" alt="carousel-1">
+                            </div>
+                            <div class="col-lg-5 col-sm-6">
+                                <h1>Custom Parties</h1>
+                                <h3>$290.00</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <h3>EVENTS _____________</h3>
+                            <h1>Organize Your Events In Our Restaurant</h1>
+                            <div class="col-lg-7 col-sm-6">
+                                <img src="./img/private.jpg" width="710" class="img-fluid" alt="carousel-1">
+                            </div>
+                            <div class="col-lg-5 col-sm-6">
+                                <h1>Private Parties</h1>
+                                <h3>$189.00</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                    labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="bg-resimg">
+        <div class="container p-5">
+            <div class="row mt-3">
+                <div class="col-sm-12 col-lg-6">
+                    <h3>SPECIALS _____________</h3>
+                    <h1>Check Our Specials</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua.</p>
+                    <ul>
+                        <i class="fa-solid fa-bullseye"></i>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <i class="fa-solid fa-bullseye"></i>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <i class="fa-solid fa-bullseye"></i>
+                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </ul>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+                        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                        cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </div>
+                <div class="col-sm-12 col-lg-6 mt-2">
+                    <img src="./img/about.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="bg-black">
+        <div class="row py-5">
+            <h3>Why us? _____________</h3>
+            <h1>Why Choose Our Resturant?</h1>
+
+            <div class="col-sm-12 col-md-4 mt-3">
+                <div class="card text-bg-dark mb-3" style="max-width: 25rem; height: 20rem;">
+                    <div class="card-header"><h1>01</h1></div>
+                    <div class="card-body">
+                        <h1 class="card-title">Lorem</h1>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eaque blanditiis voluptas ratione consectetur itaque quaerat doloribus! Exercitationem blanditiis recusandae nesciunt obcaecati, debitis quis quo quod, sunt laboriosam corporis earum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4 mt-3">
+                <div class="card text-bg-dark mb-3" style="max-width: 25rem; height: 20rem;">
+                    <div class="card-header"><h1>02</h1></div>
+                    <div class="card-body">
+                        <h1 class="card-title">Repattil Nihill</h1>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eaque blanditiis voluptas ratione consectetur itaque quaerat doloribus! Exercitationem blanditiis recusandae nesciunt obcaecati, debitis quis quo quod, sunt laboriosam corporis earum?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-4">
+                <div class="card text-bg-dark mb-3 mt-3" style="max-width: 25rem; height: 20rem;">
+                    <div class="card-header"><h1>03</h1></div>
+                    <div class="card-body">
+                        <h1 class="card-title">Ad Wadu jeha Turej</h1>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eaque blanditiis voluptas ratione consectetur itaque quaerat doloribus! Exercitationem blanditiis recusandae nesciunt obcaecati, debitis quis quo quod, sunt laboriosam corporis earum?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
